@@ -16,7 +16,7 @@ use js::jsapi::Heap;
 use js::jsapi::JSContext;
 use js::jsapi::JSObject;
 use js::jsapi::JS_ClearPendingException;
-use js::jsapi::JS_ParseJSON;
+use js::rust::wrappers::JS_ParseJSON;
 use js::jsapi::Value as JSValue;
 use js::jsval::UndefinedValue;
 use js::typedarray::{ArrayBuffer, CreateWith};
